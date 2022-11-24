@@ -201,7 +201,7 @@ button:hover {
 .testmonials .col-2,
 .testmonials .col-3 {
   background-color: hsl(219deg, 30%, 18%);
-  padding: 0.94rem;
+  padding: 5px 0.94rem;
   margin-bottom: 20px;
 }
 .testmonials .col-1 .user,
