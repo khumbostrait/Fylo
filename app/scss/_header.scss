@@ -3,20 +3,22 @@
   background-color: $DarkBlueIntrol;
   nav {
     display: flex;
-    justify-content: space-between;
-    padding: 1.4375rem;
+    padding: 15px 8px;
     @include breakpoints-up(large) {
       padding: 1rem 2.375rem;
     }
 
     .logo {
+      display: none;
       img {
         width: 6rem;
       }
     }
     .nav__links {
+      flex: 1;
+      text-align: right;
       a {
-        margin-right: 10px;
+        margin-right: 5px;
         font-size: 12px;
         @include breakpoints-up(large) {
           &:not(:last-child) {
