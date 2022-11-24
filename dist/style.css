@@ -67,7 +67,7 @@ button:hover {
 }
 .header nav {
   display: flex;
-  padding: 15px 10px;
+  padding: 20px 10px;
 }
 @media (min-width: 64em) {
   .header nav {
@@ -147,7 +147,8 @@ button:hover {
 .productive {
   color: hsl(0deg, 0%, 100%);
   gap: 4.375rem;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 9.375rem;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -171,12 +172,22 @@ button:hover {
   margin-bottom: 1.5rem;
 }
 .productive__description a {
-  text-decoration: underline;
-  border: white;
+  color: hsl(198deg, 60%, 50%);
+  position: relative;
+  padding-bottom: 0.4375rem;
+}
+.productive__description a::before {
+  content: "";
+  position: absolute;
+  height: 0.1875rem;
+  width: 100%;
+  background-color: hsl(198deg, 60%, 50%);
+  bottom: 0;
 }
 
 .testmonials {
   display: grid;
+  padding: 0 0.94rem;
   gap: 30px;
   grid-template-columns: 1fr;
   color: hsl(0deg, 0%, 100%);
@@ -190,7 +201,7 @@ button:hover {
 .testmonials .col-2,
 .testmonials .col-3 {
   background-color: hsl(219deg, 30%, 18%);
-  padding: 20px;
+  padding: 0.94rem;
   margin-bottom: 20px;
 }
 .testmonials .col-1 .user,

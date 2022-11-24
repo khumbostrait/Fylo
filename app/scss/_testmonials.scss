@@ -1,6 +1,7 @@
 // testmonial section
 .testmonials {
   display: grid;
+  padding: 0 0.94rem;
   gap: 30px;
   grid-template-columns: 1fr;
 
@@ -13,7 +14,7 @@
   .col-2,
   .col-3 {
     background-color: $DarkBlueTestmonial;
-    padding: 20px;
+    padding: 0.94rem;
     margin-bottom: 20px;
     .user {
       display: flex;
