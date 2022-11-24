@@ -67,7 +67,7 @@ button:hover {
 }
 .header nav {
   display: flex;
-  padding: 15px 10px;
+  padding: 15px px;
 }
 @media (min-width: 64em) {
   .header nav {
@@ -85,15 +85,16 @@ button:hover {
   text-align: right;
 }
 .header nav .nav__links a {
-  font-size: 0.875rem;
+  font-size: 14px;
 }
 @media (min-width: 64em) {
   .header nav .nav__links a:not(:last-child) {
-    font-size: 12px;
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
   }
 }
 .header nav .nav__links a:not(:last-child) {
-  margin-right: 1.4375rem;
+  margin-right: 10px;
 }
 .header .introl {
   display: block;
