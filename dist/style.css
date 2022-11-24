@@ -74,10 +74,9 @@ button:hover {
 .header nav .logo img {
   width: 6rem;
 }
-.header nav .nav__links {
-  text-align: right;
-}
 .header nav .nav__links a {
+  margin-right: 10px;
+  font-size: 12px;
   font-size: 0.875rem;
 }
 @media (min-width: 64em) {

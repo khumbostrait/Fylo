@@ -15,8 +15,9 @@
       }
     }
     .nav__links {
-      text-align: right;
       a {
+        margin-right: 10px;
+        font-size: 12px;
         @include breakpoints-up(large) {
           &:not(:last-child) {
             margin-right: 1.875rem;
