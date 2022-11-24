@@ -62,8 +62,8 @@ button:hover {
   background-color: hsl(217deg, 28%, 15%);
 }
 .header nav {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
   padding: 1.4375rem;
 }
 @media (min-width: 64em) {
@@ -71,14 +71,10 @@ button:hover {
     padding: 1rem 2.375rem;
   }
 }
-.header nav .logo {
-  justify-content: start;
-}
 .header nav .logo img {
   width: 6rem;
 }
 .header nav .nav__links {
-  justify-content: end;
   text-align: right;
 }
 .header nav .nav__links a {
@@ -114,7 +110,7 @@ button:hover {
   max-width: 100%;
 }
 .header .introl__tittle {
-  font-size: x-large;
+  font-size: large;
 }
 .header .introl__paragraph p {
   font-size: 1rem;

@@ -2,21 +2,19 @@
   // navigation menu
   background-color: $DarkBlueIntrol;
   nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     padding: 1.4375rem;
     @include breakpoints-up(large) {
       padding: 1rem 2.375rem;
     }
 
     .logo {
-      justify-content: start;
       img {
         width: 6rem;
       }
     }
     .nav__links {
-      justify-content: end;
       text-align: right;
       a {
         @include breakpoints-up(large) {
@@ -57,7 +55,7 @@
       }
     }
     &__tittle {
-      font-size: x-large;
+      font-size: large;
     }
     &__paragraph {
       p {
