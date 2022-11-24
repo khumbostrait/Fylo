@@ -37,6 +37,7 @@
     justify-content: center;
     h2 {
       margin-bottom: 2rem;
+      text-align: center;
     }
     p {
       margin-bottom: 1.5rem;
@@ -46,10 +47,10 @@
       position: relative;
       padding-bottom: 0.4375rem;
       &::before {
-        content: "";
         position: absolute;
         height: 0.1875rem;
         width: 100%;
+        content: "";
         background-color: $Blue;
         bottom: 0;
       }
