@@ -22,8 +22,8 @@
         // for larger screen
         @include breakpoints-up(large) {
           &:not(:last-child) {
-            margin-right: 0.5rem;
-            font-size: 0.875rem;
+            margin-right: 5px;
+            font-size: 12px;
           }
         }
         // default settings
