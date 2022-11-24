@@ -7,24 +7,26 @@
     @include breakpoints-up(large) {
       padding: 1rem 2.375rem;
     }
-
+    // main logo
     .logo {
       display: none;
       img {
         width: 6rem;
       }
     }
+    // navigation links
     .nav__links {
       flex: 1;
       text-align: right;
       a {
-        margin-right: 5px;
-        font-size: 12px;
+        // for larger screen
         @include breakpoints-up(large) {
           &:not(:last-child) {
             margin-right: 1.875rem;
+            font-size: 0.875rem;
           }
         }
+        // default settings
         font-size: 0.875rem;
         &:not(:last-child) {
           margin-right: 1.4375rem;

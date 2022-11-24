@@ -82,13 +82,12 @@ button:hover {
   text-align: right;
 }
 .header nav .nav__links a {
-  margin-right: 5px;
-  font-size: 12px;
   font-size: 0.875rem;
 }
 @media (min-width: 64em) {
   .header nav .nav__links a:not(:last-child) {
     margin-right: 1.875rem;
+    font-size: 0.875rem;
   }
 }
 .header nav .nav__links a:not(:last-child) {
