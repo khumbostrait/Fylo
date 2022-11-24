@@ -1,0 +1,71 @@
+.file {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: white;
+
+  @include breakpoints-up(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoints-up(large) {
+    width: 60%;
+    margin: auto auto 9.375rem auto;
+  }
+}
+
+// stay productive
+.productive {
+  color: $White;
+  gap: 4.375rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  @include breakpoints-up(large) {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: auto;
+  }
+  &__image {
+    img {
+      max-width: 100%;
+    }
+  }
+  &__description {
+    justify-content: center;
+    h2 {
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    a {
+      text-decoration: underline;
+      border: white;
+    }
+  }
+}
+
+// testmonial section
+.testmonials {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+
+  @include breakpoints-up(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  color: $White;
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    background-color: $DarkBlueTestmonial;
+    margin-bottom: 20px;
+    figure {
+      display: flex;
+      justify-content: start;
+    }
+  }
+}

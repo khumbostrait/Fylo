@@ -1,0 +1,68 @@
+.header {
+  // navigation menu
+  background-color: $DarkBlueIntrol;
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.4375rem;
+    @include breakpoints-up(large) {
+      padding: 1rem 2.375rem;
+    }
+
+    .logo {
+      justify-content: start;
+      img {
+        width: 6rem;
+      }
+    }
+    .nav__links {
+      justify-content: end;
+      text-align: right;
+      a {
+        @include breakpoints-up(large) {
+          &:not(:last-child) {
+            margin-right: 1.875rem;
+          }
+        }
+        font-size: 0.875rem;
+        &:not(:last-child) {
+          margin-right: 1.4375rem;
+        }
+      }
+    }
+  }
+
+  // introl section
+
+  .introl {
+    display: grid;
+    padding-bottom: 2rem;
+    background-image: url(/app/images/bg-curvy-desktop.svg);
+    background-position: top bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr;
+    margin-bottom: 8rem;
+    color: $White;
+    text-align: center;
+
+    @include breakpoints-up(large) {
+      width: 50%;
+      margin: 0 auto 8rem auto;
+    }
+
+    &__image {
+      img {
+        max-width: 100%;
+      }
+    }
+    &__tittle {
+      font-size: x-large;
+    }
+    &__paragraph {
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

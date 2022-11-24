@@ -1,0 +1,196 @@
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218deg, 28%, 13%);
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.button,
+button {
+  padding: 0.875rem 2.1875rem;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  border: 0;
+  transition: 300ms;
+  display: inline-block;
+  font-size: 0.875rem;
+  color: white;
+  font-weight: 400;
+  background: hsl(198deg, 60%, 50%);
+}
+.button:hover,
+button:hover {
+  opacity: 0.75;
+}
+
+.container {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+.header {
+  background-color: hsl(217deg, 28%, 15%);
+}
+.header nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.4375rem;
+}
+@media (min-width: 64em) {
+  .header nav {
+    padding: 1rem 2.375rem;
+  }
+}
+.header nav .logo {
+  justify-content: start;
+}
+.header nav .logo img {
+  width: 6rem;
+}
+.header nav .nav__links {
+  justify-content: end;
+  text-align: right;
+}
+.header nav .nav__links a {
+  font-size: 0.875rem;
+}
+@media (min-width: 64em) {
+  .header nav .nav__links a:not(:last-child) {
+    margin-right: 1.875rem;
+  }
+}
+.header nav .nav__links a:not(:last-child) {
+  margin-right: 1.4375rem;
+}
+.header .introl {
+  display: grid;
+  padding-bottom: 2rem;
+  background-image: url(/app/images/bg-curvy-desktop.svg);
+  background-position: top bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-template-columns: 1fr;
+  margin-bottom: 8rem;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .header .introl {
+    width: 50%;
+    margin: 0 auto 8rem auto;
+  }
+}
+.header .introl__image img {
+  max-width: 100%;
+}
+.header .introl__tittle {
+  font-size: x-large;
+}
+.header .introl__paragraph p {
+  font-size: 1rem;
+}
+
+.file {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: white;
+}
+@media (min-width: 40em) {
+  .file {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 64em) {
+  .file {
+    width: 60%;
+    margin: auto auto 9.375rem auto;
+  }
+}
+
+.productive {
+  color: hsl(0deg, 0%, 100%);
+  gap: 4.375rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 64em) {
+  .productive {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: auto;
+  }
+}
+.productive__image img {
+  max-width: 100%;
+}
+.productive__description {
+  justify-content: center;
+}
+.productive__description h2 {
+  margin-bottom: 2rem;
+}
+.productive__description p {
+  margin-bottom: 1.5rem;
+}
+.productive__description a {
+  text-decoration: underline;
+  border: white;
+}
+
+.testmonials {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  color: hsl(0deg, 0%, 100%);
+}
+@media (min-width: 64em) {
+  .testmonials {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.testmonials .col-1,
+.testmonials .col-2,
+.testmonials .col-3 {
+  background-color: hsl(219deg, 30%, 18%);
+  margin-bottom: 20px;
+}
+.testmonials .col-1 figure,
+.testmonials .col-2 figure,
+.testmonials .col-3 figure {
+  display: flex;
+  justify-content: start;
+}/*# sourceMappingURL=style.css.map */

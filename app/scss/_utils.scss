@@ -1,0 +1,54 @@
+// variables and mixins
+
+//  Primary
+// (intro and email sign up background):
+$DarkBlueIntrol: hsl(217, 28%, 15%);
+// (main background)
+$DarkBlueMain: hsl(218, 28%, 13%);
+// (footer background)
+$DarkBlueFooter: hsl(216, 53%, 9%);
+// (testimonials background)
+$DarkBlueTestmonial: hsl(219, 30%, 18%);
+
+// ### Accent
+
+$Cyan: hsl(176, 68%, 64%);
+$Blue: hsl(198, 60%, 50%);
+$LightRed: hsl(0, 100%, 63%);
+
+// ### Neutral
+
+$White: hsl(0, 0%, 100%);
+
+// media queries
+
+@media (min-width: 64em) {
+  // styles goes here
+}
+
+// 640px 1024px 1400px
+$breakpoints-up: (
+  "medium": "40em",
+  "large": "64em",
+  "x-large": "87.5em",
+);
+
+// 639px 1023px 1399px
+$breakpoints-down: (
+  "small": "39.937em",
+  "medium": "63.9375em",
+  ";arge": "87.4375em",
+);
+
+// mixins
+@mixin breakpoints-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoints-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
