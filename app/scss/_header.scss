@@ -38,13 +38,12 @@
   // introl section
 
   .introl {
-    display: grid;
+    display: block;
     padding-bottom: 2rem;
     background-image: url(/app/images/bg-curvy-desktop.svg);
     background-position: top bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    grid-template-columns: 1fr;
     margin-bottom: 8rem;
     color: $White;
     text-align: center;
@@ -60,9 +59,11 @@
       }
     }
     &__tittle {
+      padding: 0 20px;
       font-size: large;
     }
     &__paragraph {
+      padding: 0 20px;
       p {
         font-size: 1rem;
       }
