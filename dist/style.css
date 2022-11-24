@@ -75,10 +75,10 @@ button:hover {
   }
 }
 .header nav .logo {
-  display: none;
+  width: 50px;
 }
 .header nav .logo img {
-  width: 6rem;
+  width: 100%;
 }
 .header nav .nav__links {
   flex: 1;
