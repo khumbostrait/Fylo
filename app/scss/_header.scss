@@ -3,13 +3,13 @@
   background-color: $DarkBlueIntrol;
   nav {
     display: flex;
-    padding: 15px;
+    padding: 15px 10;
     @include breakpoints-up(large) {
       padding: 1rem 2.375rem;
     }
     // main logo
     .logo {
-      width: 100px;
+      width: 85px;
       img {
         width: 100%;
       }

@@ -67,7 +67,7 @@ button:hover {
 }
 .header nav {
   display: flex;
-  padding: 15px;
+  padding: 15px 10;
 }
 @media (min-width: 64em) {
   .header nav {
@@ -75,7 +75,7 @@ button:hover {
   }
 }
 .header nav .logo {
-  width: 100px;
+  width: 85px;
 }
 .header nav .logo img {
   width: 100%;
