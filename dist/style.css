@@ -89,7 +89,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .header nav .nav__links a:not(:last-child) {
-    margin-right: 1.875rem;
+    margin-right: 1rem;
     font-size: 0.875rem;
   }
 }
