@@ -46,27 +46,3 @@
     }
   }
 }
-
-// testmonial section
-.testmonials {
-  visibility: hidden;
-  display: grid;
-  gap: 30px;
-  grid-template-columns: 1fr;
-
-  @include breakpoints-up(large) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  color: $White;
-
-  .col-1,
-  .col-2,
-  .col-3 {
-    background-color: $DarkBlueTestmonial;
-    margin-bottom: 20px;
-    figure {
-      display: flex;
-      justify-content: start;
-    }
-  }
-}
