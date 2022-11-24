@@ -22,7 +22,6 @@
         // for larger screen
         @include breakpoints-up(large) {
           &:not(:last-child) {
-            margin-right: 5px;
             font-size: 12px;
           }
         }
