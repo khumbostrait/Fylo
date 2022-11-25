@@ -226,6 +226,11 @@ button:hover {
   border-radius: 20px;
   margin-bottom: 20px;
 }
+.testmonials .col-1 p,
+.testmonials .col-2 p,
+.testmonials .col-3 p {
+  font-size: 14px;
+}
 .testmonials .col-1 .user,
 .testmonials .col-2 .user,
 .testmonials .col-3 .user {
