@@ -28,6 +28,10 @@
     width: 70%;
     margin: auto;
   }
+  @include breakpoints-up(medium) {
+    width: 80%;
+    margin: auto;
+  }
   &__image {
     img {
       max-width: 100%;

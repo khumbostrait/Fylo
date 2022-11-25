@@ -1,5 +1,14 @@
 .acess {
+  @include breakpoints-up(large) {
+    width: 50%;
+    margin: auto;
+  }
+  @include breakpoints-up(medium) {
+    width: 80%;
+    margin: auto;
+  }
   background-color: $DarkBlueIntrol;
+  padding: 0 20px;
   text-align: center;
   color: white;
   h3 {
@@ -9,6 +18,10 @@
     margin-bottom: 22px;
   }
   form {
+    @include breakpoints-up(large) {
+      display: flex;
+      flex-direction: row;
+    }
     display: flex;
     padding: 0 30px;
     flex-direction: column;
@@ -16,6 +29,8 @@
     #email {
       margin-bottom: 22px;
       height: 40px;
+      font-size: 1rem;
+      text-indent: 4px;
       border-radius: 20px;
     }
   }

@@ -52,6 +52,10 @@
       width: 50%;
       margin: 0 auto 8rem auto;
     }
+    @include breakpoints-up(medium) {
+      width: 80%;
+      margin: auto;
+    }
 
     &__image {
       img {

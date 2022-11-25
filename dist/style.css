@@ -113,6 +113,12 @@ button:hover {
     margin: 0 auto 8rem auto;
   }
 }
+@media (min-width: 40em) {
+  .header .introl {
+    width: 80%;
+    margin: auto;
+  }
+}
 .header .introl__image img {
   max-width: 100%;
 }
@@ -159,6 +165,12 @@ button:hover {
     margin: auto;
   }
 }
+@media (min-width: 40em) {
+  .productive {
+    width: 80%;
+    margin: auto;
+  }
+}
 .productive__image img {
   max-width: 100%;
 }
@@ -195,7 +207,15 @@ button:hover {
 }
 @media (min-width: 64em) {
   .testmonials {
+    margin: auto;
+    width: 80%;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 40em) {
+  .testmonials {
+    width: 80%;
+    margin: auto;
   }
 }
 .testmonials .col-1,
@@ -221,8 +241,21 @@ button:hover {
 
 .acess {
   background-color: hsl(217deg, 28%, 15%);
+  padding: 0 20px;
   text-align: center;
   color: white;
+}
+@media (min-width: 64em) {
+  .acess {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media (min-width: 40em) {
+  .acess {
+    width: 80%;
+    margin: auto;
+  }
 }
 .acess h3 {
   margin-bottom: 22px;
@@ -236,8 +269,16 @@ button:hover {
   flex-direction: column;
   justify-content: space-evenly;
 }
+@media (min-width: 64em) {
+  .acess form {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .acess form #email {
   margin-bottom: 22px;
   height: 40px;
+  font-size: 1rem;
+  text-indent: 4px;
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
