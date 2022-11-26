@@ -1,0 +1,32 @@
+.footer {
+  background-color: $DarkBlueFooter;
+  text-align: left;
+  color: $White;
+  padding: 1.875rem;
+  &-logos {
+    p {
+    }
+  }
+  &-contacts {
+    img {
+      display: inline;
+    }
+    .phone,
+    .email {
+      display: flex;
+    }
+  }
+
+  &-links {
+    a {
+      display: block;
+      line-height: 2rem;
+    }
+  }
+  &-social {
+  }
+  &-description {
+  }
+  &-logo {
+  }
+}

@@ -248,7 +248,8 @@ button:hover {
 
 .acess {
   background-color: hsl(217deg, 28%, 15%);
-  padding: 0 20px;
+  padding: 0 1.25rem;
+  padding-bottom: 9.375rem;
   text-align: center;
   color: white;
 }
@@ -268,7 +269,7 @@ button:hover {
   margin-bottom: 22px;
 }
 .acess p {
-  margin-bottom: 22px;
+  margin-bottom: 1.25rem;
 }
 .acess form {
   display: flex;
@@ -288,4 +289,22 @@ button:hover {
   font-size: 1rem;
   text-indent: 4px;
   border-radius: 20px;
+}
+
+.footer {
+  background-color: hsl(216deg, 53%, 9%);
+  text-align: left;
+  color: hsl(0deg, 0%, 100%);
+  padding: 1.875rem;
+}
+.footer-contacts img {
+  display: inline;
+}
+.footer-contacts .phone,
+.footer-contacts .email {
+  display: flex;
+}
+.footer-links a {
+  display: block;
+  line-height: 2rem;
 }/*# sourceMappingURL=style.css.map */

@@ -8,14 +8,15 @@
     margin: auto;
   }
   background-color: $DarkBlueIntrol;
-  padding: 0 20px;
+  padding: 0 1.25rem;
+  padding-bottom: 9.375rem;
   text-align: center;
   color: white;
   h3 {
     margin-bottom: 22px;
   }
   p {
-    margin-bottom: 22px;
+    margin-bottom: 1.25rem;
   }
   form {
     @include breakpoints-up(large) {
